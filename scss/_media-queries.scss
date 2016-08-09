@@ -1,0 +1,34 @@
+// mobile ld max width 350px
+
+
+$mobile-hd-width: 350px;
+
+@mixin mobile-hd {
+  @media (min-width: $mobile-hd-width) {
+    @content;
+  }
+}
+
+$tablet-width: 760px;
+
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+$desktop-width: 980px;
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+$retina-display-width: 1024px;
+
+@mixin retina-display {
+  @media (min-width: $retina-display-width) {
+    @content;
+  }
+}
