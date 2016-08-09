@@ -386,7 +386,7 @@ img video {
   font-size: 3em;
   max-width: 6em;
   letter-spacing: 0.02em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   padding-left: 1.89em;
   z-index: 2; }
 
@@ -397,9 +397,7 @@ img video {
   height: 41vh;
   z-index: 1;
   position: relative;
-  bottom: 45em;
-  -webkit-filter: blur(1px);
-          filter: blur(1px); }
+  bottom: 54em; }
 
 .arrow-wrapper {
   display: -ms-flexbox;
