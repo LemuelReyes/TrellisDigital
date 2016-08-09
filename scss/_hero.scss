@@ -1,21 +1,30 @@
 @import "media-queries";
 
-// span {
-//   @include mobile {
-//     color: red;
-//   }
-//   @include tablet {
-//     color: orange;
-//   }
-//   @include desktop {
-//     color: yellow;
-//   }
-//   @include retina-display {
-//     color: blue;
-//   }
-// }
+.hero-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-title {
-  color: white;
+  color: rgba(255,255,255,1);
   font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  max-width: 6em;
+  letter-spacing: 0.02em;
+  margin-bottom: 5em;
+  padding-left: 1.89em;
+  z-index: 2;
+}
+
+.hero-img {
+  background-image: url('../build/img/hero-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 41vh;
+  z-index: 1;
+  position: relative;
+  bottom: 45em;
+  filter: blur(1px);
 }
