@@ -1,10 +1,15 @@
 @import "media-queries";
 
+.hero-container {
+  margin-top: 14vh;
+}
+
 .hero-wrapper {
-  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 41vh;
+  width: 100vw;
 }
 
 .hero-title {
@@ -13,8 +18,6 @@
   font-size: 3em;
   max-width: 6em;
   letter-spacing: 0.02em;
-  margin-bottom: 3em;
-  padding-left: 1.89em;
   z-index: 2;
 }
 
@@ -24,15 +27,14 @@
   background-size: contain;
   height: 41vh;
   z-index: 1;
-  position: relative;
-  bottom: 54em;
 }
 
 .arrow-wrapper {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 37em;
+  top: 15vh;
+  right: 22.6vw;
 
   :hover {
     opacity: 0.5;
@@ -45,6 +47,7 @@
 .square-container {
   border: 1px solid white;
   padding: 1em;
+  width: 3em;
   opacity: 0.8;
 }
 
