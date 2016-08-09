@@ -3,7 +3,7 @@
 
 $mobile-hd-width: 350px;
 
-@mixin mobile-hd {
+@mixin mobile {
   @media (min-width: $mobile-hd-width) {
     @content;
   }

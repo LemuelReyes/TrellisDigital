@@ -1,0 +1,15 @@
+@media (min-width: 350px) {
+  span {
+    color: red; } }
+
+@media (min-width: 760px) {
+  span {
+    color: orange; } }
+
+@media (min-width: 980px) {
+  span {
+    color: yellow; } }
+
+@media (min-width: 1024px) {
+  span {
+    color: blue; } }
