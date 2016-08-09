@@ -363,3 +363,26 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */ }
+
+body {
+  background-color: black;
+  font-size: 12px; }
+
+img video {
+  height: auto; }
+
+.hero-title {
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  header span {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 1em; }

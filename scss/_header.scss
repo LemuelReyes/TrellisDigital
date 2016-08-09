@@ -1,0 +1,14 @@
+@import "media-queries";
+
+header {
+  display: flex;
+  justify-content: center;
+
+  span {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 1em;
+  }
+}
