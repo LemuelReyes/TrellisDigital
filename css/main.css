@@ -390,8 +390,7 @@ img video {
   max-width: 6em;
   letter-spacing: 0.02em;
   z-index: 2;
-  margin-top: 1.5em;
-  margin-right: 2em; }
+  margin-top: 1.5em; }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
