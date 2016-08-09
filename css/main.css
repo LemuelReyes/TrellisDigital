@@ -446,7 +446,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  height: 95vh; }
 
 .about-text {
   color: white;
@@ -454,3 +455,19 @@ header {
   max-width: 80vw;
   line-height: 1.5em;
   text-align: center; }
+
+.services-section {
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 95vh; }
+  .services-section h2 {
+    font-size: 2em; }
+  .services-section span {
+    font-size: 4em; }
