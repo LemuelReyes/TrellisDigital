@@ -401,6 +401,24 @@ img video {
   -webkit-filter: blur(1px);
           filter: blur(1px); }
 
+.arrow-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  position: relative;
+  bottom: 34em; }
+
+.arrow-down {
+  width: 0em;
+  height: 0em;
+  border-left: 1.4em solid transparent;
+  border-right: 1.4em solid transparent;
+  border-top: 2em solid white; }
+
+.bounce {
+  -webkit-animation: bounce 1s infinite; }
+
 header {
   display: -ms-flexbox;
   display: flex;
