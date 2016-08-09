@@ -1,7 +1,6 @@
 @import "media-queries";
 
 .hero-container {
-  margin-top: 14vh;
   height: 100vh;
 }
 
@@ -20,14 +19,17 @@
   max-width: 6em;
   letter-spacing: 0.02em;
   z-index: 2;
+  margin-top: 1.5em;
+  margin-right: 2em;
 }
 
 .hero-img {
   background-image: url('../build/img/hero-banner.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 41vh;
+  height: 51vh;
   width: 100vw;
+  margin-top: 13vh;
   z-index: 1;
 }
 
@@ -36,6 +38,7 @@
   justify-content: center;
   position: relative;
   top: 15vh;
+  width: 100vw;
   right: 22.6vw;
 
   :hover {
