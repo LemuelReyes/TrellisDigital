@@ -407,17 +407,23 @@ img video {
   -ms-flex-pack: center;
       justify-content: center;
   position: relative;
-  bottom: 34em; }
+  bottom: 37em; }
+  .arrow-wrapper :hover {
+    opacity: 0.5;
+    transform: scale(1.1); }
+
+.square-container {
+  border: 1px solid white;
+  padding: 1em;
+  opacity: 0.8; }
 
 .arrow-down {
   width: 0em;
   height: 0em;
   border-left: 1.4em solid transparent;
   border-right: 1.4em solid transparent;
-  border-top: 2em solid white; }
-
-.bounce {
-  -webkit-animation: bounce 1s infinite; }
+  border-top: 2em solid white;
+  opacity: 1; }
 
 header {
   display: -ms-flexbox;
