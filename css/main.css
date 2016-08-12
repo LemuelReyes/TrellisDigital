@@ -371,7 +371,7 @@ body {
 img video {
   height: auto; }
 
-.flex-center, .hero-wrapper, .arrow-wrapper, header, .about-section, .services-section {
+.flex-center, .hero-wrapper, .arrow-wrapper, header, .about-section, .services-section, .services-section ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -456,6 +456,18 @@ header {
   height: 95vh; }
   .services-section h2 {
     font-size: 2em; }
-  .services-section li {
-    font-size: 2em;
-    text-align: center; }
+  .services-section ul {
+    list-style: none;
+    -ms-flex-flow: column;
+        flex-flow: column; }
+    .services-section ul li {
+      font-size: 1.7em;
+      line-height: 2em;
+      max-width: 90vw; }
+  .services-section hr {
+    color: white;
+    width: 65vw; }
+  .services-section span {
+    padding-top: 1.5em;
+    font-size: 1.4em;
+    max-width: 60vw; }

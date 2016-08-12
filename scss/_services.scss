@@ -9,8 +9,26 @@ h2 {
   font-size: 2em;
 }
 
-li {
-  font-size: 2em;
-  text-align: center;
+ul {
+  list-style: none;
+  @extend .flex-center;
+  flex-flow: column;
+
+  li {
+    font-size: 1.7em;
+    line-height: 2em;
+    max-width: 90vw;
+  }
+}
+
+hr {
+  color: white;
+  width: 65vw;
+}
+
+span {
+  padding-top: 1.5em;
+  font-size: 1.4em;
+  max-width: 60vw;
 }
 }
