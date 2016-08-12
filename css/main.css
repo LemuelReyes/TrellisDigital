@@ -405,8 +405,8 @@ img video {
 
 .arrow-wrapper {
   position: relative;
-  top: 11vh;
-  left: 5vw;
+  top: 5.3em;
+  left: 2.2em;
   width: 100vw; }
   .arrow-wrapper :hover {
     opacity: 0.5;
