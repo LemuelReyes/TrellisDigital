@@ -12,7 +12,8 @@
   font-size: 3em;
   letter-spacing: 0.02em;
   z-index: 2;
-  max-width: 6em
+  max-width: 6em;
+  margin-top: 6em;
 }
 
 
@@ -29,8 +30,9 @@
 .arrow-wrapper {
   @extend .flex-center;
   position: relative;
-  top: 10vh;
+  top: 37vh;
   left: 5vw;
+
   z-index: 2;
 
   :hover {

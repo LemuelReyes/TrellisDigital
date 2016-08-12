@@ -389,7 +389,8 @@ img video {
   font-size: 3em;
   letter-spacing: 0.02em;
   z-index: 2;
-  max-width: 6em; }
+  max-width: 6em;
+  margin-top: 6em; }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
@@ -402,7 +403,7 @@ img video {
 
 .arrow-wrapper {
   position: relative;
-  top: 10vh;
+  top: 37vh;
   left: 5vw;
   z-index: 2; }
   .arrow-wrapper :hover {
