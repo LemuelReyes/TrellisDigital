@@ -398,6 +398,7 @@ img video {
   background-size: contain;
   background-position: center;
   position: absolute;
+  left: 0em;
   height: 66vh;
   width: 100vw;
   z-index: 1; }
@@ -508,3 +509,7 @@ textarea {
   height: 8em;
   border-radius: 1em;
   text-align: center; }
+
+button {
+  height: 3em;
+  width: 40vw; }
