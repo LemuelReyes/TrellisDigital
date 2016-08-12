@@ -396,6 +396,7 @@ img video {
   background-image: url("../build/img/hero-banner.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   position: absolute;
   height: 66vh;
   width: 100vw;
