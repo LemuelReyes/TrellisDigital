@@ -395,7 +395,7 @@ img video {
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
   background-repeat: no-repeat;
-  background-size: contain, contain;
+  background-size: contain;
   position: absolute;
   height: 66vh;
   width: 100vw;
@@ -403,8 +403,8 @@ img video {
 
 .arrow-wrapper {
   position: relative;
-  top: 37vh;
-  left: 5vw;
+  top: 37%;
+  left: 5%;
   z-index: 2; }
   .arrow-wrapper :hover {
     opacity: 0.5;
