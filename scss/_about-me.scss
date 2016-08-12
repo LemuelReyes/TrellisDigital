@@ -1,6 +1,5 @@
 .about-section {
-  display: flex;
-  justify-content: center;
+  @extend .flex-center;
   height: 95vh;
 }
 

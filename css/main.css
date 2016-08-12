@@ -371,14 +371,16 @@ body {
 img video {
   height: auto; }
 
+.flex-center, .hero-wrapper, .arrow-wrapper, header, .about-section, .services-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
 .hero-container {
   height: 100vh; }
 
 .hero-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   position: absolute;
   top: 41vh;
   width: 100vw; }
@@ -402,10 +404,6 @@ img video {
   z-index: 1; }
 
 .arrow-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   position: relative;
   top: 15vh;
   width: 100vw;
@@ -429,10 +427,6 @@ img video {
   opacity: 1; }
 
 header {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   width: 100vw;
   position: fixed;
   top: 5vh; }
@@ -443,10 +437,6 @@ header {
     letter-spacing: 0.1em; }
 
 .about-section {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   height: 95vh; }
 
 .about-text {
@@ -458,16 +448,14 @@ header {
 
 .services-section {
   color: white;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
   -ms-flex-flow: column;
       flex-flow: column;
   -ms-flex-align: center;
+      -ms-grid-row-align: center;
       align-items: center;
   height: 95vh; }
   .services-section h2 {
     font-size: 2em; }
-  .services-section span {
-    font-size: 4em; }
+  .services-section li {
+    font-size: 2em;
+    text-align: center; }

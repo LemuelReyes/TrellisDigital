@@ -1,8 +1,7 @@
 @import "media-queries";
 
 header {
-  display: flex;
-  justify-content: center;
+  @extend .flex-center;
   width: 100vw;
   position: fixed;
   top: 5vh;
