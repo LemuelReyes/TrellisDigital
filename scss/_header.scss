@@ -3,13 +3,14 @@
 header {
   @extend .flex-center;
   width: 100vw;
+  background-color: black;
   position: fixed;
-  top: 5vh;
+  z-index: 3;
+  padding-top: 8vh;
 
   span {
     color: white;
     font-size: 1.8em;
-    background-color: black;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em;
   }
