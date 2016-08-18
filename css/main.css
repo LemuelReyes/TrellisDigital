@@ -449,7 +449,7 @@ header {
     letter-spacing: 0.1em; }
 
 .about-section {
-  height: 95vh; }
+  margin: 20vh 0; }
 
 .about-text {
   color: white;
@@ -464,8 +464,7 @@ header {
       flex-flow: column;
   -ms-flex-align: center;
       -ms-grid-row-align: center;
-      align-items: center;
-  height: 100vh; }
+      align-items: center; }
   .services-section h2 {
     font-size: 2em; }
   .services-section ul {
@@ -485,7 +484,6 @@ header {
     max-width: 60vw; }
 
 .contact-section {
-  height: 100vh;
   background-color: white;
   -ms-flex-flow: column;
       flex-flow: column;
