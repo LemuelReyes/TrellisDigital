@@ -19,6 +19,14 @@
   @include mobile {
     top: 25vh;
   }
+
+  @include tablet {
+    max-width: 14em;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 11vh;
+    right: 5vw;
+  }
 }
 
 
@@ -36,6 +44,10 @@
 
   @include mobile {
     background-size: cover;
+  }
+
+  @include tablet {
+    height: 100vh;
   }
 }
 
