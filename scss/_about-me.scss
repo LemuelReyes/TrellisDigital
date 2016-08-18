@@ -9,4 +9,8 @@
   max-width: 80vw;
   line-height: 1.5em;
   text-align: center;
+
+  @include mobile {
+    max-width: 73vw;
+  }
 }

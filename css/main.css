@@ -392,6 +392,9 @@ img video {
   max-width: 6em;
   position: relative;
   top: 21vh; }
+  @media (min-width: 350px) {
+    .hero-title {
+      top: 25vh; } }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
@@ -404,6 +407,9 @@ img video {
   height: 66vh;
   width: 100vw;
   z-index: 1; }
+  @media (min-width: 350px) {
+    .hero-img {
+      background-size: cover; } }
 
 .arrow-wrapper {
   position: relative;
@@ -413,6 +419,9 @@ img video {
   .arrow-wrapper :hover {
     opacity: 0.5;
     transform: scale(1.1); }
+  @media (min-width: 350px) {
+    .arrow-wrapper {
+      top: 39%; } }
 
 .arrow-down {
   width: 0em;
@@ -457,6 +466,9 @@ header {
   max-width: 80vw;
   line-height: 1.5em;
   text-align: center; }
+  @media (min-width: 350px) {
+    .about-text {
+      max-width: 73vw; } }
 
 .services-section {
   color: white;
