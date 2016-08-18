@@ -30,4 +30,10 @@ span {
   font-size: 1.4em;
   max-width: 60vw;
 }
+
+@include tablet {
+  h2 {
+    font-size: 3em;
+  }
+}
 }

@@ -507,6 +507,9 @@ header {
     padding: 1.5em 0em 3em 0em;
     font-size: 1.4em;
     max-width: 60vw; }
+  @media (min-width: 720px) {
+    .services-section h2 {
+      font-size: 3em; } }
 
 .contact-section {
   background-color: white;
