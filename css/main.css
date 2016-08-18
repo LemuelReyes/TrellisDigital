@@ -390,7 +390,8 @@ img video {
   letter-spacing: 0.02em;
   z-index: 2;
   max-width: 6em;
-  margin-top: 46vh; }
+  position: relative;
+  top: 21vh; }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
@@ -513,4 +514,4 @@ textarea {
 
 button {
   height: 3em;
-  width: 40vw; }
+  width: 14em; }
