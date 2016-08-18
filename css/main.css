@@ -443,6 +443,7 @@ header {
   header span {
     color: white;
     font-size: 1.8em;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.1em; }
 
