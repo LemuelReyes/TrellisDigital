@@ -9,7 +9,7 @@ $mobile-hd-width: 350px;
   }
 }
 
-$tablet-width: 760px;
+$tablet-width: 720px;
 
 @mixin tablet {
   @media (min-width: $tablet-width) {
@@ -17,7 +17,7 @@ $tablet-width: 760px;
   }
 }
 
-$desktop-width: 980px;
+$desktop-width: 1080px;
 
 @mixin desktop {
   @media (min-width: $desktop-width) {
@@ -25,7 +25,7 @@ $desktop-width: 980px;
   }
 }
 
-$retina-display-width: 1024px;
+$retina-display-width: 1350px;
 
 @mixin retina-display {
   @media (min-width: $retina-display-width) {
