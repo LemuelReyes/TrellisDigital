@@ -1,6 +1,10 @@
 .about-section {
   @extend .flex-center;
   margin: 20vh 0;
+
+  @include tablet {
+    margin: 45vh 0 20vh 0;
+  }
 }
 
 .about-text {

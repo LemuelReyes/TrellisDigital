@@ -469,6 +469,9 @@ header {
 
 .about-section {
   margin: 20vh 0; }
+  @media (min-width: 720px) {
+    .about-section {
+      margin: 45vh 0 20vh 0; } }
 
 .about-text {
   color: white;
