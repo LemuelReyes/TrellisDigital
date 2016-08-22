@@ -394,14 +394,19 @@ img video {
   top: 21vh; }
   @media (min-width: 350px) {
     .hero-title {
-      top: 25vh; } }
+      top: 25vh;
+      right: 8vw;
+      font-size: 4em; } }
   @media (min-width: 720px) {
     .hero-title {
       max-width: 14em;
       font-weight: bold;
       text-transform: uppercase;
-      top: 11vh;
-      right: 5vw; } }
+      top: 12vh;
+      left: 5vw; } }
+  @media (min-width: 1080px) {
+    .hero-title {
+      font-size: 6em; } }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
@@ -416,9 +421,7 @@ img video {
   z-index: 1; }
   @media (min-width: 350px) {
     .hero-img {
-      background-size: cover; } }
-  @media (min-width: 720px) {
-    .hero-img {
+      background-size: cover;
       height: 100vh; } }
 
 .arrow-wrapper {
@@ -432,6 +435,9 @@ img video {
   @media (min-width: 350px) {
     .arrow-wrapper {
       top: 39%; } }
+  @media (min-width: 1080px) {
+    .arrow-wrapper {
+      right: 88vw; } }
 
 .arrow-down {
   width: 0em;

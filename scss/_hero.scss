@@ -18,14 +18,20 @@
 
   @include mobile {
     top: 25vh;
+    right: 8vw;
+    font-size: 4em;
   }
 
   @include tablet {
     max-width: 14em;
     font-weight: bold;
     text-transform: uppercase;
-    top: 11vh;
-    right: 5vw;
+    top: 12vh;
+    left: 5vw;
+  }
+
+  @include desktop {
+    font-size: 6em;
   }
 }
 
@@ -44,10 +50,10 @@
 
   @include mobile {
     background-size: cover;
+    height: 100vh;
   }
 
   @include tablet {
-    height: 100vh;
   }
 }
 
@@ -67,6 +73,10 @@
 
   @include mobile {
     top: 39%;
+  }
+
+  @include desktop {
+    right: 88vw;
   }
 }
 
