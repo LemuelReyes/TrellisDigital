@@ -406,7 +406,9 @@ img video {
       left: 5vw; } }
   @media (min-width: 1080px) {
     .hero-title {
-      font-size: 6em; } }
+      font-size: 6em;
+      position: absolute;
+      top: 35%; } }
 
 .hero-img {
   background-image: url("../build/img/hero-banner.jpg");
@@ -425,8 +427,18 @@ img video {
       height: 100vh; } }
   @media (min-width: 1080px) {
     .hero-img {
-      background-image: url("../build/img/lemuel-mp4.mp4");
-      height: 100vh; } }
+      display: none; } }
+
+.fullscreen-bg_video {
+  display: none; }
+  @media (min-width: 1080px) {
+    .fullscreen-bg_video {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; } }
 
 .arrow-wrapper {
   position: relative;
