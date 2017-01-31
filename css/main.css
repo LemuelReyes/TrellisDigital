@@ -423,6 +423,10 @@ img video {
     .hero-img {
       background-size: cover;
       height: 100vh; } }
+  @media (min-width: 1080px) {
+    .hero-img {
+      background-image: url("../build/img/lemuel-mp4.mp4");
+      height: 100vh; } }
 
 .arrow-wrapper {
   position: relative;

@@ -53,7 +53,9 @@
     height: 100vh;
   }
 
-  @include tablet {
+  @include desktop {
+    background-image: url('../build/img/lemuel-mp4.mp4');
+    height: 100vh;
   }
 }
 
