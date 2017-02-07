@@ -1,15 +1,10 @@
 .services-section {
-  color: white;
+
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
 
-h2 {
-  font-size: 2em;
-}
-
 ul {
-  list-style: none;
   @extend .flex-center;
   flex-flow: column;
 

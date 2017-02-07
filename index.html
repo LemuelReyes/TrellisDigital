@@ -14,29 +14,53 @@
       <title>Trellis Digital. Business Services</title>
 
     </head>
-    <body>
-    test12234
-      <header>
-        <span class="header-title">trellis digital</span>
-      </header>
-
-      <div class="hero-container">
-          <h1 class="hero-title">The digital support for your business needs</h1>
-            <div class="fullscreen-bg">
-              <video loop muted autoplay class="fullscreen-bg_video">
-                <source src="../build/img/lemuel-mp4.webm" type="video/webm">
-                <source src="../build/img/lemuel-mp4.mp4" type="video/mp4">
-                <source src="../build/img/lemuel-mp4.ogg" type="video/ogg">
-              </video>
-            </div>
-            <div class="hero-img">
-            </div>
-        <div class="arrow-wrapper">
-            <div class="arrow-down bounce"></div>
-        </div>
+    <body data-spy="scroll" data-target=".navbar-collapse">
+<div class="container">
+  <div class="navbar navbar-inverse navbar-fixed-top">  
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand">trellis digital</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>   
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+            </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </div>
 
-      <div class="about-section">
+<div class="hero-unit" id="home">
+<div class="fullscreen-bg">
+  <video loop muted autoplay class="fullscreen-bg_video">
+    <source src="img/lemuel-mp4.mp4" type="video/mp4">
+    <source src="img/lemuel-mp4.ogg" type="video/ogg">
+  </video>
+</div>
+  <h1 class="text-center hero-text">trellis digital</h1>
+  <h2 class="text-center sub-hero-text">simple digital support for your business</h2>
+</div>
+
+      <div class="about-section section" id="about">
+
+        <h2>About</h2>
+
         <p class="about-text">
            Trellis Digital is a local Vancouver agency that provides small businesses
            digital design solutions and support. Our services set the trajectory toward growth, sustainability and success.
@@ -44,7 +68,7 @@
         </p>
       </div>
 
-      <div class="services-section">
+      <div class="services-section section" id="services">
         <h2>Our Services</h2>
         <ul>
           <li>Web Development</li>
@@ -60,7 +84,7 @@
         <span>Find out how your business can benefit from <a>our services and packages...</a></span>
       </div>
 
-      <div class="contact-section">
+      <div class="contact-section section" id="contact">
         <h2>Contact Us</h2>
           <form action="" method="post">
               <div>
@@ -78,8 +102,8 @@
               </div>
           </form>
       </div>
-
-      <script src="../node_modules/jquery/dist/"></script>
+      </div> <!-- ends container div -->
+       <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
   </html>

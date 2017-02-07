@@ -1,6 +1,15 @@
 body {
-  background-color: black;
+  font-color: black;
   font-size: 12px;
+  font: 'Roboto', san-serif;
+}
+.row{
+  margin: 0;
+}
+.container{
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 img video {
@@ -10,4 +19,15 @@ img video {
 .flex-center {
   display: flex;
   justify-content: center;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.section {
+  margin: 20vh 0vw;
+}
+ul {
+  list-style: none;
 }

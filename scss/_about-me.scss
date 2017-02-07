@@ -1,6 +1,7 @@
 .about-section {
   @extend .flex-center;
-  margin: 20vh 0;
+  flex-flow: column;
+  align-items: center;
 
   @include tablet {
     margin: 45vh 0 20vh 0;
@@ -8,13 +9,11 @@
 }
 
 .about-text {
-  color: white;
   font-size: 1.7em;
-  max-width: 80vw;
   line-height: 1.5em;
   text-align: center;
+  padding: 9vh 5vw;
 
   @include mobile {
-    max-width: 73vw;
   }
 }
