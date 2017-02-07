@@ -1,3 +1,13 @@
+/* to update depracated dependencies, follow these steps: 
+
+npm install david -g  #add sudo on mac/linux 
+It's a great package update app. Then from time to time
+
+ david --global 
+to check if you have outdated global packages. If that's the case you do
+
+david update --global #add sudo on mac/linux */
+
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     browserSync = require('browser-sync').create(),
