@@ -3,29 +3,27 @@
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
-
+h2 {
+  padding-top: 4em;
+}
 ul {
   @extend .flex-center;
   flex-flow: column;
-
   li {
     font-size: 1.7em;
     line-height: 2em;
     max-width: 90vw;
   }
 }
-
 hr {
   color: white;
   width: 65vw;
 }
-
 span {
   padding: 1.5em 0em 3em 0em;
   font-size: 1.4em;
   max-width: 60vw;
 }
-
 @include tablet {
   h2 {
     font-size: 3em;

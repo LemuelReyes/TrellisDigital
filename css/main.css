@@ -501,6 +501,8 @@ header {
       flex-flow: column;
   -ms-flex-align: center;
       align-items: center; }
+  .services-section h2 {
+    padding-top: 4em; }
   .services-section ul {
     -ms-flex-flow: column;
         flex-flow: column; }
