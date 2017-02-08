@@ -403,7 +403,7 @@ ul {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  background-image: url("../../img/desktwo.jpg");
+  background-image: url("../img/desktwo.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(27, 19, 13, 0.8);

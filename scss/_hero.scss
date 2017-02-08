@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:url('../../img/desktwo.jpg');
+  background-image:url('../img/desktwo.jpg');
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(27, 19, 13, 0.8);
@@ -45,7 +45,7 @@
   display: none;
 
   @include tablet {
-  display: block; 
+  display: block;
   }
  }
 .fullscreen-bg_video {
