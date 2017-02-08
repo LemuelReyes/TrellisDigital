@@ -417,11 +417,11 @@ ul {
 
 .hero-text {
   z-index: 5;
-  font-size: 10.2vw;
+  font-size: 13.2vw;
   color: white;
   position: absolute;
   font-color: white;
-  padding-bottom: 3vh; }
+  padding-bottom: 2em; }
 
 .sub-hero-text {
   color: rgba(255, 250, 243, 0.9);
@@ -429,8 +429,7 @@ ul {
   position: absolute;
   font-size: 5vw;
   font-weight: normal;
-  font-color: white;
-  margin-top: 5vh; }
+  font-color: white; }
 
 .fullscreen-bg {
   top: 0;
