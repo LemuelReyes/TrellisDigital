@@ -367,7 +367,7 @@ textarea {
 body {
   font-color: black;
   font-size: 12px;
-  font: 'Roboto', san-serif; }
+  font-family: 'Roboto', sans-serif, arial; }
 
 .row {
   margin: 0; }
@@ -411,7 +411,8 @@ ul {
   background-color: rgba(27, 19, 13, 0.8);
   min-height: 100vh;
   width: 100vw;
-  position: relative; }
+  position: relative;
+  background-attachment: fixed; }
   @media (min-width: 720px) {
     .hero-unit {
       background-image: none;
@@ -429,7 +430,7 @@ ul {
 
 .hero-text {
   z-index: 5;
-  font-size: 8.2vh;
+  font-size: 16.2vw;
   color: white;
   position: relative;
   top: 0; }
@@ -437,7 +438,7 @@ ul {
 .sub-hero-text {
   color: rgba(255, 250, 243, 0.9);
   z-index: 5;
-  font-size: 5vw;
+  font-size: 2vh;
   font-weight: normal;
   font-color: white;
   position: relative;
@@ -506,7 +507,7 @@ header {
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
-  padding: 9vh 5vw; }
+  padding: 3vh 5vw; }
 
 .services-section {
   -ms-flex-flow: column;

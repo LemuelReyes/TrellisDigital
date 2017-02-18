@@ -12,6 +12,8 @@
   min-height: 100vh;
   width: 100vw;
   position: relative;
+  background-attachment: fixed;
+
   @include tablet {
   background-image: none;
   height: auto;
@@ -28,10 +30,9 @@
   z-index: 5;
   top: 50vh;
 }
-
 .hero-text {
   z-index: 5;
-  font-size: 8.2vh;
+  font-size: 16.2vw;
   color: white;
   position: relative;
   top: 0;
@@ -39,7 +40,7 @@
 .sub-hero-text {
   color:rgba(255, 250, 243, 0.9);
   z-index: 5;
-  font-size: 5vw;
+  font-size: 2vh;
   font-weight: normal;
   font-color: white;
   position: relative;
