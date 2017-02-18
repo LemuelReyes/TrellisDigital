@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(27, 19, 13, 0.8);
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
   position: relative;
   background-attachment: fixed;
@@ -21,7 +21,7 @@
 }
 .dark-overlay {
   background-color: rgba(27, 19, 13, 0.8);
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
 }
 }
@@ -32,15 +32,16 @@
 }
 .hero-text {
   z-index: 5;
-  font-size: 16.2vw;
+  font-size: 4em;
   color: white;
   position: relative;
   top: 0;
+  text-transform: capitalize;
 }
 .sub-hero-text {
   color:rgba(255, 250, 243, 0.9);
   z-index: 5;
-  font-size: 2vh;
+  font-size: 2.3em;
   font-weight: normal;
   font-color: white;
   position: relative;

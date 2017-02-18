@@ -2,7 +2,10 @@
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
-
+  background-image: url('../../img/about-img.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  
   @include tablet {
     margin: 45vh 0 20vh 0;
   }

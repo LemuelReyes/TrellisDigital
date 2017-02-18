@@ -409,7 +409,7 @@ ul {
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(27, 19, 13, 0.8);
-  min-height: 100vh;
+  height: 100vh;
   width: 100vw;
   position: relative;
   background-attachment: fixed; }
@@ -420,7 +420,7 @@ ul {
       width: 100%; } }
   .hero-unit .dark-overlay {
     background-color: rgba(27, 19, 13, 0.8);
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw; }
 
 .hero-text-container {
@@ -430,15 +430,16 @@ ul {
 
 .hero-text {
   z-index: 5;
-  font-size: 16.2vw;
+  font-size: 4em;
   color: white;
   position: relative;
-  top: 0; }
+  top: 0;
+  text-transform: capitalize; }
 
 .sub-hero-text {
   color: rgba(255, 250, 243, 0.9);
   z-index: 5;
-  font-size: 2vh;
+  font-size: 2.3em;
   font-weight: normal;
   font-color: white;
   position: relative;
@@ -498,7 +499,10 @@ header {
   -ms-flex-flow: column;
       flex-flow: column;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  background-image: url("../../img/about-img.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
   @media (min-width: 720px) {
     .about-section {
       margin: 45vh 0 20vh 0; } }
