@@ -403,33 +403,45 @@ ul {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
   background-image: url("../img/desktwo.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-color: rgba(27, 19, 13, 0.8);
-  height: 100vh;
-  width: 100vw; }
+  min-height: 100vh;
+  width: 100vw;
+  position: relative; }
   @media (min-width: 720px) {
     .hero-unit {
       background-image: none;
       height: auto;
       width: 100%; } }
+  .hero-unit .dark-overlay {
+    background-color: rgba(27, 19, 13, 0.8);
+    min-height: 100vh;
+    width: 100vw; }
+
+.hero-text-container {
+  position: absolute;
+  z-index: 5;
+  top: 50vh; }
 
 .hero-text {
   z-index: 5;
-  font-size: 13.2vw;
+  font-size: 8.2vh;
   color: white;
-  position: absolute;
-  font-color: white; }
+  position: relative;
+  top: 0; }
 
 .sub-hero-text {
   color: rgba(255, 250, 243, 0.9);
   z-index: 5;
-  position: absolute;
   font-size: 5vw;
   font-weight: normal;
   font-color: white;
-  padding-top: 16vh; }
+  position: relative;
+  top: 0; }
 
 .fullscreen-bg {
   top: 0;
@@ -549,6 +561,7 @@ textarea {
   border-radius: 1em;
   text-align: center; }
 
-button {
-  height: 3em;
-  width: 14em; }
+.trellis-logo {
+  height: 10vh;
+  width: 38vw;
+  margin-left: 7vw; }
