@@ -438,11 +438,9 @@ ul {
 
 .hero-text {
   z-index: 5;
-  font-size: 5em;
+  font-size: 4em;
   color: white;
   position: absolute;
-  top: 30%;
-  text-align: center;
   text-transform: capitalize; }
   @media (min-width: 1080px) {
     .hero-text {
@@ -452,9 +450,7 @@ ul {
   color: rgba(255, 250, 243, 0.9);
   z-index: 5;
   position: absolute;
-  top: 50%;
-  text-align: center;
-  font-size: 3em; }
+  font-size: 2em; }
   @media (min-width: 1080px) {
     .sub-hero-text {
       font-size: 4em; } }
@@ -491,7 +487,7 @@ header {
       flex-flow: column;
   -ms-flex-align: center;
       align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/about-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/about-img.jpg");
   background-attachment: fixed;
   background-size: cover;
   color: white; }
