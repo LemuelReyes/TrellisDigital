@@ -1,17 +1,37 @@
 .contact-section {
-
-  background-color: white;
+  background-image: url('../img/ep_naturalwhite.png');
+  background-attachment: fixed;
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
+  @include tablet {
+    height: 100vh;
+  }
 
   h2 {
     font-size: 2em;
+  @include tablet {
+    font-size: 2.5em;
+    padding-bottom: 1.5em;
+  }
+  @include desktop {
+    font-size: 3em;
+    padding-top: 1.5em;
+  }
   }
 }
 
 form {
   line-height: 3em;
+
+button {
+  width: 5em;
+  margin-bottom: 5em;
+
+@include tablet {
+  width: 8em;
+}
+}
 }
 
 input {
@@ -22,6 +42,11 @@ input {
   margin-bottom: 2em;
   border-radius: 2em;
   box-shadow: none;
+  border: 1px grey solid;
+  @include desktop {
+  width: 50vw;
+  font-size:: 2em;
+  }
 }
 
 textarea {
@@ -30,4 +55,8 @@ textarea {
   height: 8em;
   border-radius: 1em;
   text-align: center;
+  @include desktop {
+  width: 50vw;
+  font-size: 2em;
+  }
 }

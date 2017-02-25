@@ -1,8 +1,13 @@
 .services-section {
-
+  background-image: url('../img/footer_lodyas.png');
+  color: white;
+  background-attachment: fixed;
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
+  @include tablet {
+    height: 100vh;
+  }
 h2 {
   padding-top: 4em;
 }

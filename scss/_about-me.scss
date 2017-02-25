@@ -2,12 +2,26 @@
   @extend .flex-center;
   flex-flow: column;
   align-items: center;
-  background-image: url('../../img/about-img.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../../img/about-img.jpg');
   background-attachment: fixed;
   background-size: cover;
-  
+  color: white;
   @include tablet {
-    margin: 45vh 0 20vh 0;
+    height: 100vh;
+  }
+  
+h2 {
+    font-size: 2.6em;
+    padding-top: 1em;
+    text-align: center;
+    @include tablet {
+    font-size: 3.2em;
+    padding-top: 1.5em;
+    }
+    @include desktop {
+    font-size: 3em;
+    }
   }
 }
 
@@ -16,7 +30,10 @@
   line-height: 1.5em;
   text-align: center;
   padding: 3vh 5vw;
-
-  @include mobile {
+  @include tablet {
+    padding: 4vh 10vw;
+  }
+  @include desktop {
+    font-size: 2em;
   }
 }

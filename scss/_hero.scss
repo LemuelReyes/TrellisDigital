@@ -4,49 +4,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-image:url('../img/desktwo.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, -1.4), rgba(0, 0, 0, 0.6)),
+  url('../img/desktwo.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  background-color: rgba(27, 19, 13, 0.8);
-  height: 100vh;
-  width: 100vw;
-  position: relative;
   background-attachment: fixed;
-
-  @include tablet {
-  background-image: none;
-  height: auto;
-  width: 100%;
-}
-.dark-overlay {
-  background-color: rgba(27, 19, 13, 0.8);
   height: 100vh;
   width: 100vw;
-}
-}
-.hero-text-container {
-  position: absolute;
-  z-index: 5;
-  top: 50vh;
-}
-.hero-text {
-  z-index: 5;
-  font-size: 4em;
-  color: white;
-  position: relative;
-  top: 0;
-  text-transform: capitalize;
-}
-.sub-hero-text {
-  color:rgba(255, 250, 243, 0.9);
-  z-index: 5;
-  font-size: 2.3em;
-  font-weight: normal;
-  font-color: white;
-  position: relative;
-  top: 0;
-}
+@include desktop {
+          background-image: none;
+          background-color: rgba(27, 19, 13, 0.8);
+          height: auto;
+          width: 100%;
+    }
+  }
+
 .fullscreen-bg {
   top: 0;
   right: 0;
@@ -55,21 +27,39 @@
   overflow: hidden;
   z-index: -100;
   width: 100vw;
-  display: none;
-
-  @include tablet {
-  display: block;
-  }
  }
 .fullscreen-bg_video {
   z-index: 4;
-  display: none;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
-
-  @include tablet {
-   display: block;
+}
+@media only screen and (max-width: 770px) {
+    .fullscreen-bg .fullscreen-bg_video {
+        display: none;
+}
+}
+.hero-text {
+  z-index: 5;
+  font-size: 5em;
+  color: white;
+  position:absolute;
+  top: 30%;
+  text-transform: capitalize;
+  @include desktop {
+    font-size: 7em;
+  }
+}
+.sub-hero-text {
+  color:rgba(255, 250, 243, 0.9);
+  z-index: 5;
+  position:absolute;
+  top: 50%;
+  font-size: 3em;
+  @include desktop {
+    top: 50%;
+    font-size: 4em;
   }
 }
 

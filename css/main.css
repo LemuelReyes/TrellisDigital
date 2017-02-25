@@ -390,9 +390,6 @@ h2 {
   font-size: 2em;
   font-weight: bold; }
 
-.section {
-  margin: 20vh 0vw; }
-
 ul {
   list-style: none; }
 
@@ -403,47 +400,18 @@ ul {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  background-image: url("../img/desktwo.jpg");
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.6)), url("../img/desktwo.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-color: rgba(27, 19, 13, 0.8);
+  background-attachment: fixed;
   height: 100vh;
-  width: 100vw;
-  position: relative;
-  background-attachment: fixed; }
-  @media (min-width: 720px) {
+  width: 100vw; }
+  @media (min-width: 1080px) {
     .hero-unit {
       background-image: none;
+      background-color: rgba(27, 19, 13, 0.8);
       height: auto;
       width: 100%; } }
-  .hero-unit .dark-overlay {
-    background-color: rgba(27, 19, 13, 0.8);
-    height: 100vh;
-    width: 100vw; }
-
-.hero-text-container {
-  position: absolute;
-  z-index: 5;
-  top: 50vh; }
-
-.hero-text {
-  z-index: 5;
-  font-size: 4em;
-  color: white;
-  position: relative;
-  top: 0;
-  text-transform: capitalize; }
-
-.sub-hero-text {
-  color: rgba(255, 250, 243, 0.9);
-  z-index: 5;
-  font-size: 2.3em;
-  font-weight: normal;
-  font-color: white;
-  position: relative;
-  top: 0; }
 
 .fullscreen-bg {
   top: 0;
@@ -452,21 +420,40 @@ ul {
   left: 0;
   overflow: hidden;
   z-index: -100;
-  width: 100vw;
-  display: none; }
-  @media (min-width: 720px) {
-    .fullscreen-bg {
-      display: block; } }
+  width: 100vw; }
 
 .fullscreen-bg_video {
   z-index: 4;
-  display: none;
+  display: block;
   top: 0;
   left: 0;
   width: 100%; }
-  @media (min-width: 720px) {
-    .fullscreen-bg_video {
-      display: block; } }
+
+@media only screen and (max-width: 770px) {
+  .fullscreen-bg .fullscreen-bg_video {
+    display: none; } }
+
+.hero-text {
+  z-index: 5;
+  font-size: 5em;
+  color: white;
+  position: absolute;
+  top: 30%;
+  text-transform: capitalize; }
+  @media (min-width: 1080px) {
+    .hero-text {
+      font-size: 7em; } }
+
+.sub-hero-text {
+  color: rgba(255, 250, 243, 0.9);
+  z-index: 5;
+  position: absolute;
+  top: 50%;
+  font-size: 3em; }
+  @media (min-width: 1080px) {
+    .sub-hero-text {
+      top: 50%;
+      font-size: 4em; } }
 
 .arrow-wrapper {
   position: relative;
@@ -500,24 +487,48 @@ header {
       flex-flow: column;
   -ms-flex-align: center;
       align-items: center;
-  background-image: url("../../img/about-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/about-img.jpg");
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  color: white; }
   @media (min-width: 720px) {
     .about-section {
-      margin: 45vh 0 20vh 0; } }
+      height: 100vh; } }
+  .about-section h2 {
+    font-size: 2.6em;
+    padding-top: 1em;
+    text-align: center; }
+    @media (min-width: 720px) {
+      .about-section h2 {
+        font-size: 3.2em;
+        padding-top: 1.5em; } }
+    @media (min-width: 1080px) {
+      .about-section h2 {
+        font-size: 3em; } }
 
 .about-text {
   font-size: 1.7em;
   line-height: 1.5em;
   text-align: center;
   padding: 3vh 5vw; }
+  @media (min-width: 720px) {
+    .about-text {
+      padding: 4vh 10vw; } }
+  @media (min-width: 1080px) {
+    .about-text {
+      font-size: 2em; } }
 
 .services-section {
+  background-image: url("../img/footer_lodyas.png");
+  color: white;
+  background-attachment: fixed;
   -ms-flex-flow: column;
       flex-flow: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 720px) {
+    .services-section {
+      height: 100vh; } }
   .services-section h2 {
     padding-top: 4em; }
   .services-section ul {
@@ -539,16 +550,34 @@ header {
       font-size: 3em; } }
 
 .contact-section {
-  background-color: white;
+  background-image: url("../img/ep_naturalwhite.png");
+  background-attachment: fixed;
   -ms-flex-flow: column;
       flex-flow: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 720px) {
+    .contact-section {
+      height: 100vh; } }
   .contact-section h2 {
     font-size: 2em; }
+    @media (min-width: 720px) {
+      .contact-section h2 {
+        font-size: 2.5em;
+        padding-bottom: 1.5em; } }
+    @media (min-width: 1080px) {
+      .contact-section h2 {
+        font-size: 3em;
+        padding-top: 1.5em; } }
 
 form {
   line-height: 3em; }
+  form button {
+    width: 5em;
+    margin-bottom: 5em; }
+    @media (min-width: 720px) {
+      form button {
+        width: 8em; } }
 
 input {
   font-size: 1.2em;
@@ -557,7 +586,12 @@ input {
   text-align: center;
   margin-bottom: 2em;
   border-radius: 2em;
-  box-shadow: none; }
+  box-shadow: none;
+  border: 1px grey solid; }
+  @media (min-width: 1080px) {
+    input {
+      width: 50vw;
+      font-size: 2em; } }
 
 textarea {
   font-size: 1.2em;
@@ -565,6 +599,10 @@ textarea {
   height: 8em;
   border-radius: 1em;
   text-align: center; }
+  @media (min-width: 1080px) {
+    textarea {
+      width: 50vw;
+      font-size: 2em; } }
 
 .trellis-logo {
   height: 10vh;
